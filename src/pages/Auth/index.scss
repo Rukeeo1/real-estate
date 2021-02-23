@@ -1,0 +1,54 @@
+@import 'config/variables.scss';
+
+.auth-page {
+  display: flex;
+  min-height: 100%;
+//   position: relative;
+  &__banner {
+    // width: %;
+    flex: 1;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  &__forms {
+    flex: 2;
+    padding: 60px 8%;
+    color: #043b5c;
+    &__logo {
+      height: 56px;
+      width: 151px;
+    }
+    h1 {
+      color: #043b5c;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 32px;
+      margin-top: 44px;
+    }
+    &_login-text {
+      margin-top: 24px;
+    }
+    //signup page
+    &__inputs {
+      display: flex;
+      .input {
+        flex: 1;
+        &__name {
+          margin-right: 56px;
+        }
+      }
+      .empty-298{
+          flex:1;
+      }
+    }
+
+    //login page
+    &__login-view{
+        width: 575px;
+        max-width: 100%;
+    }
+  }
+}

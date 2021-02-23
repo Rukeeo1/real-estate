@@ -1,0 +1,26 @@
+select {
+  padding: 0;
+  width: 100%;
+  border: 1px solid #043b5c69;
+  border-radius: 5px;
+  height: 49px;
+  color: #043b5c69;
+  font-weight: 700;
+  outline: none;
+  background: transparent;
+  padding: 10px 11px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.select-input{
+  position: relative;
+  .fa-angle-down{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+  }
+}

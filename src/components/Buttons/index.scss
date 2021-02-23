@@ -1,0 +1,18 @@
+@import 'config/variables.scss';
+
+.liveizbtn {
+//   background: #4786ff;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  width: 198px;
+  height: 52px;
+  text-align: center;
+  
+
+  &--primary {
+    color: white;
+    background: $blue300;
+  }
+}

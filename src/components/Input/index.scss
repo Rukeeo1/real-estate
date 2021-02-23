@@ -1,0 +1,26 @@
+@import 'config/variables.scss';
+
+.alt-input {
+  position: relative;
+
+  label {
+    color: $blue400;
+    font-size: 14px;
+    font-weight: normal;
+  }
+
+  input {
+    // height: 75px;
+    height: 60px;
+    border: none;
+    padding:10px 10px;
+    color: $blue100;
+    border-radius: 10px;
+    width: 100%;
+    font-weight: bold;
+  }
+
+  input::placeholder {
+    color: $blue200;
+  }
+}

@@ -1,0 +1,32 @@
+table {
+  border-collapse: separate;
+  // border-spacing: 20px 0;
+  border-spacing: 0 10px;
+
+  tr {
+    color: #043b5c;
+    text-transform: uppercase;
+    background: #ffffff;
+    // text-align: center;
+    th {
+        border: solid 1px #000;
+        border-style: solid none;
+        padding: 10px;
+        background-color: cyan;
+    }
+  
+  }
+}
+
+tr:first-child td:first-child {
+  border-top-left-radius: 10px;
+}
+tr:first-child td:last-child {
+  border-top-right-radius: 10px;
+}
+tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}

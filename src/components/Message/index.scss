@@ -1,0 +1,29 @@
+.message-wrap {
+  position: relative;
+  width: 368px;
+  padding: 63px 44px 10px 44px;
+  background: white;
+  border-bottom-right-radius: 100px;
+  &__quote {
+    background: #1461a2;
+    padding: 15px 15px;
+    border-top-left-radius: 15px;
+    position: absolute;
+    top: -28px;
+    left: -23px;
+  }
+
+  &__body {
+    h3 {
+      font-size: 16px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+  .logo {
+    position: absolute;
+    right: 100px;
+    bottom: 20px;
+  }
+}
